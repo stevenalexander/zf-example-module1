@@ -12,8 +12,10 @@
     ],
     "autoload": {
         "psr-0": {
-            "ExampleCommon\\": "src/",
-            "ExampleCommonTest\\": "tests/"
-        }
+            "zf2-example-module1": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
