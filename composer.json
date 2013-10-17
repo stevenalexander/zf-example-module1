@@ -1,3 +1,19 @@
 {
-    "name": "stevenalexander/zf-example-module1"
+    "name": "stevenalexander/zf-example-module1",
+    "description": "ZF2 example custom module",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/stevenalexander/zf-example-module1",
+    "authors": [
+        {
+            "name": "Steven Alexander",
+            "homepage": "https://github.com/stevenalexander"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "ExampleCommon\\": "src/",
+            "ExampleCommonTest\\": "tests/"
+        }
+    }
 }
